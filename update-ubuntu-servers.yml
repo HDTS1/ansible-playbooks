@@ -1,6 +1,6 @@
 ---
-- name: update ubuntu boxes
-  hosts: all
+- hosts: all
+
   become: yes
   tasks:
     - name: Update apt repo and cache on all Debian/Ubuntu boxes
